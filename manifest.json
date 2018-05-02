@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "dnsquery",
+    "version" : "0.1",
+    "description": "DNS Query Tool",
+    "icons":{"16" : "icon.png", "16": "icon.png"},
+
+    "browser_action": {
+	"default_icon": "icon.png"
+    },
+
+    "permissions" : [
+        "contextMenus", "storage" 
+    ],
+    "background": {
+        "scripts": ["dnsquery.js"]
+    }
+  
+}
